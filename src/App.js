@@ -1,23 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import SubBar from './components/SubBar';
 
-function App() {
+function App()
+{
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      <SubBar />
+
+      <div className='flex justify-around w-full flex-wrap max-sm:gap-1'>
+        <div className=''>
+          <Card image={"image1"} title={"Arno Wood Chair"} subtitle={"New in Rochester"} colorArray={["bg-blue-500", "bg-red-500", "bg-green-500"]} price={"$910"} />
+        </div>
+        <div>
+          <Card image={"image1"} title={"Arno Wood Chair"} subtitle={"New in Rochester"} colorArray={["bg-blue-500", "bg-red-500", "bg-green-500"]} price={"$910"} />
+        </div>
+        <div>
+          <Card image={"image1"} title={"Arno Wood Chair"} subtitle={"New in Rochester"} colorArray={["bg-blue-500", "bg-red-500", "bg-green-500"]} price={"$910"} />
+        </div>
+
+      </div>
+
     </div>
   );
 }
