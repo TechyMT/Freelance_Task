@@ -10,13 +10,13 @@ const SubBar = () => {
   };
 
   const renderItems = () => {
-    const items = ["All", "Armchairs", "SofaChair", "Recliner", "WindsorChair"];
+    const items = ["All", "Armchairs", "SofaChair", "Recliner", "WindsChair"];
 
     return items.map((item, index) => (
       <button
         key={index}
         className={`flex justify-center items-center max-sm:p-8 md:text-2xl 
-          w-[200px] h-[40px] rounded-full border-2 ${
+          w-[200px] h-[40px] md:h-[50px] rounded-full border-2 ${
             selectedItem === index ? "bg-[#D0F47E]" : ""
           }`}
         onClick={() => handleItemClick(index)}

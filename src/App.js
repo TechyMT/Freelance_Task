@@ -11,7 +11,9 @@ function App()
     <div className="App">
       <Navbar />
       <Hero />
-      <SubBar />
+      <div className='p-4'>
+        <SubBar />
+      </div>
 
       <div className='flex justify-around w-full flex-wrap max-sm:gap-1'>
         <div className=''>
