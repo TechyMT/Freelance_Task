@@ -18,10 +18,10 @@ function App()
           <Card image={"image1"} title={"Arno Wood Chair"} subtitle={"New in Rochester"} colorArray={["bg-blue-500", "bg-red-500", "bg-green-500"]} price={"$910"} />
         </div>
         <div>
-          <Card image={"image1"} title={"Arno Wood Chair"} subtitle={"New in Rochester"} colorArray={["bg-blue-500", "bg-red-500", "bg-green-500"]} price={"$910"} />
+          <Card image={"image4"} title={"Blue Chair"} subtitle={"New in Rochester"} colorArray={["bg-blue-500", "bg-red-500", "bg-green-500"]} price={"$910"} />
         </div>
         <div>
-          <Card image={"image1"} title={"Arno Wood Chair"} subtitle={"New in Rochester"} colorArray={["bg-blue-500", "bg-red-500", "bg-green-500"]} price={"$910"} />
+          <Card image={"image5"} title={"Lounge Chair"} subtitle={"New in Rochester"} colorArray={["bg-blue-500", "bg-red-500", "bg-green-500"]} price={"$910"} />
         </div>
 
       </div>

@@ -9,7 +9,7 @@ const Hero = () => {
         </div>
         <div className="flex absolute text-lg mt-36 p-8 justify-start z-20 text-white md:text-3xl md:w-1/2 md:ml-96 md:mt-60">
           These products are made with wood from forest certified to be
-          responsibly managed. enviromentally sound and socially beneficial.
+          responsibly managed, enviromentally sound and socially beneficial.
         </div>
       </div>
       <img

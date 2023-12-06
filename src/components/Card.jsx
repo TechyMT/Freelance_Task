@@ -1,18 +1,17 @@
 import React from "react";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-const Card = ({ image, title, subtitle, price, colorArray }) =>
-{
-    console.log(colorArray)
+const Card = ({ image, title, subtitle, price, colorArray }) => {
+ 
   return (
     <div>
-      <div className="rounded-3xl bg-slate-200 md:w-[500px] h-[450px] md:h-1/2 flex flex-col mx-auto ">
-        <div className="w-3/4 h-3/4 flex justify-center mx-auto mt-8">
+      <div className="rounded-3xl bg-slate-200 w-[400px] h-[490px] md:w-[500px]  md:h-[600px]  flex flex-col mx-auto ">
+        <div className="w-3/4 h-3/4 flex justify-center mx-auto mt-8 p-1">
           <img
-            className="flex w-auto h-auto justify-center mx-auto"
+            className="flex w-full h-full justify-center mx-auto object-cover"
             src={`/images/${image}.png`}
-                      height={200}
-                        width={200}
+            height={200}
+            width={200}
           ></img>
         </div>
         <div className="h-12 w-12 absolute  rounded-full bg-white flex justify-center items-center mt-4 md:ml-[430px] ml-[340px]">

@@ -17,7 +17,7 @@ const SubBar = () => {
         key={index}
         className={`flex justify-center items-center max-sm:p-8 md:text-2xl 
           w-[200px] h-[40px] rounded-full border-2 ${
-            selectedItem === index ? "bg-yellow-500" : ""
+            selectedItem === index ? "bg-[#D0F47E]" : ""
           }`}
         onClick={() => handleItemClick(index)}
       >
@@ -27,7 +27,7 @@ const SubBar = () => {
   };
 
   return (
-    <div className="flex gap-4 sm:gap-8 my-4 overflow-x-scroll scrollbar-hidden">
+    <div className="flex gap-4 sm:gap-8 my-4 overflow-x-scroll no-scroll max-w-screen-2xl min-w-full">
       <div
         className={`flex justify-center items-center max-sm:p-8 md:text-2xl 
           w-[100px] h-[40px] rounded-full border-2`}
